@@ -8,5 +8,9 @@ public class VariablesExample {
         int b = 20;
         int sum = a + b;
         System.out.println(sum);
+
+        //Type conversion of float but assigning to int
+        int num1 = (int)50.055;
+        System.out.println(num1);
     }
 }
