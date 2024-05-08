@@ -4,13 +4,13 @@ public class VariablesExample {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        int a = 10;
-        int b = 20;
-        int sum = a + b;
+        int num1 = 5000;
+        int num2 = 10000;
+        int sum = num1 + num2;
         System.out.println(sum);
 
         //Type conversion of float but assigning to int
-        int num1 = (int)50.055;
-        System.out.println(num1);
+        int num3 = (int)50.055;
+        System.out.println(num3);
     }
 }
